@@ -1,0 +1,259 @@
+body {
+  font-family: "Heiti SC";
+}
+
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.background-image img {
+  height: 110vh;
+
+}
+
+.image-overlay {
+  position: absolute;
+  width: 100vw;
+  margin-top: 18%;
+  height: 60%;
+}
+
+.image-overlay .stemprov {
+  color: #22B2EA;
+  font-size: 10vw;
+  margin: 0;
+  margin-left: 4vw;
+}
+.image-overlay .tagline {
+  color: #CD86ED;
+  font-size: 2.2vw;
+  margin-left: 35vw;
+}
+.image-overlay a {
+  width: 32vw;
+  display: block;
+  padding: 24px 12px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgba(0,0,0,0.5);
+  color: #ACDEFF;
+  margin: 120px auto 0 auto;
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
+.image-overlay a:hover {
+  background-color: #CD86ED;
+  color: black;
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
+.lower-content {
+  position: absolute;
+  margin-top: 100vh;
+  width: 100vw;
+}
+
+.lower-content .info-container {
+  background-color: #22B2EA;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+}
+
+.info-container p {
+  color: white;
+  font-size: 1.6vw;
+}
+
+.form-overlay {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  width: 95vw;
+  height: 50vh;
+  top: 25vh;
+  left: 2.5vw;
+  background-color: rgba(0,0,0,0.9);
+  border: 2px solid white;
+  padding: 44px;
+  z-index: 5;
+  color: white;
+}
+
+#mc_embed_signup {
+  display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#mc_embed_signup #mc_embed_signup_scroll {
+  margin-top: -20px;
+width: 120%
+}
+
+#mc_embed_signup h2{
+  text-align: center;
+}
+
+
+
+
+#mc_embed_signup .indicates-required {
+  margin-bottom: 12%;
+  font-size: 12px;
+}
+
+#mc_embed_signup .mc-field-group {
+  margin-bottom: 8%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mc_embed_signup .button {
+  width: 100%;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #22B2EA
+}
+
+#mc_embed_signup input {
+  border: none;
+  background-color: black;
+  color: white;
+  border-bottom: white 1px solid;
+  padding-bottom: 3px;
+  outline: none;
+  width: 60%;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .background-image {
+  transform: translateX(-300px);
+  }
+
+  .image-overlay a {s
+    width: 50vw;
+  }
+
+  .image-overlay .stemprov {
+    font-size: 10vw;
+    margin-left: 4vw;
+  }
+
+  .image-overlay .tagline {
+    font-size: 3.3vw;
+    margin-left: 14vw;
+  }
+}
+
+@media (max-width: 420px) {
+  .background-image {
+  transform: translateX(-500px);
+  }
+
+  .image-overlay {
+    margin-top: 45%;
+  }
+
+  .image-overlay a {
+    width: 80vw;
+  }
+
+  .image-overlay .stemprov {
+    font-size: 10vw;
+    margin-left: 4vw;
+    margin-bottom: 25vw;
+  }
+
+  .image-overlay .tagline {
+    font-size: 3.3vw;
+    margin-left: 14vw;
+  }
+
+  #mc_embed_signup input {
+    width: 50%;
+  }
+
+  #mc_embed_signup #mc_embed_signup_scroll {
+    margin-top: -20px;
+  width: 100%
+  }
+
+  #mc_embed_signup h2{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .background-image {
+  transform: translateX(-400px);
+  }
+
+  .image-overlay {
+    margin-top: 40%;
+  }
+
+  .image-overlay a {
+    width: 80vw;
+    font-size: 12px;
+  }
+
+  .image-overlay .stemprov {
+    font-size: 10vw;
+    margin-left: 4vw;
+    margin-bottom: 20vw;
+  }
+
+  .image-overlay .tagline {
+    font-size: 3.3vw;
+    margin-left: 14vw;
+  }
+
+  #mc_embed_signup input {
+    width: 50%;
+  }
+
+  #mc_embed_signup #mc_embed_signup_scroll {
+    margin-top: -20px;
+  width: 100%
+  }
+
+  #mc_embed_signup h2{
+    font-size: 18px;
+  }
+
+  .lower-content .info-container {
+    height: 200px;
+    margin: 50px auto;
+  }
+
+  .info-container p {
+    color: white;
+    text-align: center;
+    font-size: 4.6vw;
+  }
+}
