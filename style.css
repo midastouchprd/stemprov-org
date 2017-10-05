@@ -18,7 +18,7 @@ body {
 }
 
 .background-image img {
-  height: 110vh;
+  height: 140vh;
 
 }
 
@@ -150,13 +150,13 @@ width: 120%
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 961px) {
   .background-image {
-  transform: translateX(-300px);
+  transform: translate(-400px);
   }
 
-  .image-overlay a {s
-    width: 50vw;
+  .image-overlay a {
+    width: 60vw;
   }
 
   .image-overlay .stemprov {
@@ -172,7 +172,7 @@ width: 120%
 
 @media (max-width: 420px) {
   .background-image {
-  transform: translateX(-500px);
+  transform: translateX(-700px);
   }
 
   .image-overlay {
@@ -210,7 +210,12 @@ width: 120%
 
 @media (max-width: 320px) {
   .background-image {
-  transform: translateX(-400px);
+  transform: translateX(-450px);
+  }
+
+  .background-image img {
+    height: 120vh;
+
   }
 
   .image-overlay {
