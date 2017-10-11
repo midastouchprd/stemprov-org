@@ -8,12 +8,6 @@ $(function () {
   })
 
   $(window).scroll((event) => {
-    let scrollPos = $(document).scrollTop();
-    console.log(scrollPos);
-
-    let bgimg = $('.background-image img');
-    let newY = scrollPos / 10;
-
-    bgimg.css('transform', `translateY(${-(newY)}px)`)
+    $('.background-image img').css('transform', `translateY(${-(($(document).scrollTop()) / 10)}px)`)
   })
 });

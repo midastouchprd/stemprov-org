@@ -156,17 +156,28 @@ width: 120%
   }
 
   .image-overlay a {
-    width: 60vw;
+    width: 70vw;
+    font-size: 3.3vw;
   }
 
   .image-overlay .stemprov {
-    font-size: 10vw;
+    font-size: 14vw;
     margin-left: 4vw;
   }
 
   .image-overlay .tagline {
     font-size: 3.3vw;
     margin-left: 14vw;
+  }
+
+  .info-container {
+    padding: 0px 12px;
+  }
+
+  .info-container p {
+    color: white;
+    text-align: center;
+    font-size: 3.6vw;
   }
 }
 
@@ -184,7 +195,7 @@ width: 120%
   }
 
   .image-overlay .stemprov {
-    font-size: 10vw;
+    font-size: 13vw;
     margin-left: 4vw;
     margin-bottom: 25vw;
   }
@@ -205,6 +216,16 @@ width: 120%
 
   #mc_embed_signup h2{
     font-size: 18px;
+  }
+
+  .info-container {
+    padding: 0px 12px;
+  }
+
+  .info-container p {
+    color: white;
+    text-align: center;
+    font-size: 4.0vw;
   }
 }
 
@@ -228,7 +249,7 @@ width: 120%
   }
 
   .image-overlay .stemprov {
-    font-size: 10vw;
+    font-size: 13vw;
     margin-left: 4vw;
     margin-bottom: 20vw;
   }
@@ -254,6 +275,10 @@ width: 120%
   .lower-content .info-container {
     height: 200px;
     margin: 50px auto;
+  }
+
+  .info-container {
+    padding: 0px 12px;
   }
 
   .info-container p {
